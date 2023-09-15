@@ -12,3 +12,7 @@ score = 0 # game score
 fps = 5 # fps and the speed of the snake, that will grow up with the score
 snake = [(x, y)] # snake's position
 dx, dy = 0, 0 # snake's move direction
+
+pygame.init()
+screen = pygame.display.set_mode((SCREEN_SIDE, SCREEN_SIDE))
+pygame.display.set_caption('Snake!')
